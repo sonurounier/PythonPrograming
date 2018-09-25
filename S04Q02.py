@@ -1,11 +1,11 @@
-""" What does this program do ?
+""" This program find the percentage of scored marks, grade of students
 """
 
 def do_action(mark, first_class, second_class, fail):
     if mark>=first_class:
         print("Congrats!!! You Scored 1st Class")
     
-    elif mark>=second_class: #and mark<first_class
+    elif mark>=second_class:
         print("Congrats!!! You Scored 2nd Class")
 
     elif mark<second_class and mark>fail:
